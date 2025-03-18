@@ -13,7 +13,21 @@ Une application mobile Flutter moderne et élégante pour la livraison de nourri
 
 ## 🗂️ Structure du projet
 
-lib/ ├── core/ │ ├── animations/ # Animations personnalisées (Fade, Slide) │ ├── theme/ # Thème personnalisé (couleurs, styles) │ ├── utils/ # Helpers : Navigation, SizeConfig, UI helpers │ └── widgets/ # Widgets communs (CustomAppBar, etc.) ├── data.dart # Données statiques (vendeurs, catégories) ├── screens/ │ ├── splash_screen.dart # Splash screen │ ├── home_screen/ │ │ ├── home_screen.dart │ │ └── widgets/ # Widgets spécifiques au HomeScreen (CategoryListView, VendorCard) │ └── vendor_screen/ # Écran détaillé pour un vendeur └── main.dart # Point d'entrée de l'application
+lib/
+├── core/
+│   ├── animations/         # Animations personnalisées (Fade, Slide)
+│   ├── theme/              # Thème personnalisé (couleurs, styles)
+│   ├── utils/              # Helpers : Navigation, SizeConfig, UI helpers
+│   └── widgets/            # Widgets communs (CustomAppBar, etc.)
+├── data.dart               # Données statiques (vendeurs, catégories)
+├── screens/
+│   ├── splash_screen.dart  # Splash screen
+│   ├── home_screen/
+│   │   ├── home_screen.dart
+│   │   └── widgets/        # Widgets spécifiques au HomeScreen (CategoryListView, VendorCard)
+│   └── vendor_screen/      # Écran détaillé pour un vendeur
+└── main.dart               # Point d'entrée de l'application
+
 
 
 ---
@@ -50,15 +64,19 @@ lib/ ├── core/ │ ├── animations/ # Animations personnalisées (Fad
 ```bash
 git clone https://github.com/yourusername/foodie_app.git
 cd foodie_app
+```
 
 ### 3️⃣Installer les dépendances
 ```bash
 flutter pub get
+```
+
 ### 4️⃣ Exécuter l'application
 ```bash
 flutter run
+```
 
-##💡 Explication technique
+## 💡 Explication technique
 
 ### 1. Animations
 Les animations comme FadeAnimation et SlideAnimation sont faites manuellement pour donner un effet naturel et fluide à la navigation et au défilement des listes.
@@ -79,5 +97,5 @@ Authentification Firebase.
 Dark mode en ajoutant une variante dans AppTheme.
 
 ## 📃 Auteurs
-Nom : Abdelali (ou ton nom)
-Contact : abdelalimoutawassit99@gmail.com
+### Nom : Abdelali (ou ton nom)
+### Contact : abdelalimoutawassit99@gmail.com
