@@ -13,6 +13,7 @@ Une application mobile Flutter moderne et élégante pour la livraison de nourri
 
 ## 🗂️ Structure du projet
 
+```bash
 lib/
 ├── core/
 │   ├── animations/         # Animations personnalisées (Fade, Slide)
@@ -27,6 +28,7 @@ lib/
 │   │   └── widgets/        # Widgets spécifiques au HomeScreen (CategoryListView, VendorCard)
 │   └── vendor_screen/      # Écran détaillé pour un vendeur
 └── main.dart               # Point d'entrée de l'application
+```
 
 
 
